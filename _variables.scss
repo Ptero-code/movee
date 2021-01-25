@@ -1,0 +1,29 @@
+$yellow: #FED100;
+$light-gray: #EBEBEB;
+$red: #FF352B;
+$white: #FFF;
+$light: #F2F2F2;
+$dark: #333333;
+
+@mixin breakpoint($point) {
+    @if $point == lg {
+        @media (max-width: 1414px) {
+            @content;
+        }
+    }
+    @else if $point == md {
+        @media (max-width: 1095px) {
+            @content;
+        }
+    }
+    @else if $point == sm {
+        @media (max-width: 801px) {
+            @content;
+        }
+    }
+    @else if $point == xs {
+        @media (max-width: 425px) {
+            @content;
+        }
+    }
+}

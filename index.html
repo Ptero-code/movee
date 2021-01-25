@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVEE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script> 
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header__navigation">
+                <div class="header__logo">
+                    <h2>MOVEE</h2>
+                </div>
+                <div class="container header__container">
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__menu header__items menu">
+                            <li class="header__item"><a class="header__link" href="#">Цены</a></li>
+                            <li class="header__item"><a class="header__link" href="#">Автопарк</a></li>
+                            <li class="header__item"><a class="header__link" href="#">Отзывы</a></li>
+                            <li class="header__item"><a class="header__link" href="#">Контакты</a></li>
+                            <li class="header__item"><a class="header__link" href="#">Блог</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__phone">
+                    <a href="tel:+78000801213">8 (800)-080-12-13</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="offer">
+            <div class="wrapper">
+                <div class="offer__content">
+                    <div class="left-block">
+                        <h1 class="offer__h1">Квартирные<br>переезды</h1>
+                        <p class="offer__p">По Москве и области</p>
+                        <button class="offer__button red-button span-shadow"><span>Заказать</span></button>
+                        <div class="offer__items">
+                            <div class="offer__delivery">
+                                <img src="img/truck.svg" alt="Truck">
+                                <p>Более 800<br>переездов</p>
+                            </div>
+                            <div class="offer__pack">
+                                <img src="img/pack.svg" alt="Pack">
+                                <p>Бережная<br>упаковка</p>
+                            </div>
+                            <div class="offer__price">
+                                <img src="img/price.svg" alt="Price">
+                                <p>Фиксированная<br>цена</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-block">
+                        <img class="img-man" src="img/man.png" alt="Man">
+                        <img class="img-car" src="img/car.png" alt="Car">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="steps">
+            <div class="wrapper">
+                <h3 class="steps__h3">Как это происходит ?</h3>
+                <div class="steps__content">
+                    <div class="steps__step1">
+                        <span class="numbers">01</span>
+                        <div class="steps__text">
+                            <h6>Оценка объема предстоящих работ</h6>
+                            <p>Стоимость переезда зависит от количества комнат, вещей и мебели.</p>
+                        </div>
+                    </div>
+                    <div class="steps__step2">
+                        <span class="numbers">02</span>
+                        <div class="steps__text">
+                            <h6>Упаковка вещей</h6>
+                            <p>Упаковываем вещи в коробки, подписываем. Габаритное и деликатное,  упаковываем отдельно.</p>
+                        </div>
+                    </div>
+                    <div class="steps__step3">
+                        <span class="numbers">03</span>
+                        <div class="steps__text">
+                            <h6>Погрузка и транспортировка вещей</h6>
+                            <p>В нашем автопарке имеются машины, подходящие для мебели любых габаритов.</p>
+                        </div>
+                    </div>
+                    <div class="steps__step4">
+                        <span class="numbers">04</span>
+                        <div class="steps__text">
+                            <h6>Распаковка и расстановка мебели</h6>
+                            <p>Опытные грузчики быстро расставят мебель и уберут мусор от распаковки.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="price">
+            <div class="wrapper">
+                <div class="price__h3">Цены</div>
+                <p class="price__p">Фиксированная стоимость на переезд под ключ</p>
+                <div class="price__items">
+                    <div class="price__item">
+                        <h6>1-комнатная кв-ра</h6>
+                        <ul>
+                            <li>1 фургон</li>
+                            <li>2 грузчика</li>
+                            <li>Переезд за 4 часа</li>
+                        </ul>
+                        <p>8 490₽ </p>
+                        <button class="price__button yellow-button">Заказать</button>
+                    </div>
+                    <div class="price__item">
+                        <h6>2-комнатная кв-ра  </h6>
+                        <ul>
+                            <li>1 газель - 3 метра</li>
+                            <li>2 грузчика</li>
+                            <li>Переезд за 4 часа</li>
+                        </ul>
+                        <p>10 990₽</p>
+                        <button class="price__button yellow-button">Заказать</button>
+                    </div>
+                    <div class="price__item">
+                        <h6>3-комнатная кв-ра</h6>
+                        <ul>
+                            <li>1 газель - 4 метра</li>
+                            <li>2 грузчика</li>
+                            <li>Переезд за 6 часов</li>
+                        </ul>
+                        <p>16 490₽</p>
+                        <button class="price__button yellow-button">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="autopark">
+            <div class="wrapper">
+                <div class="autopark__h3">Автопарк</div>
+                    <p class="autopark__p">10 видов автомобилей от 800 кг до 10 тонн</p>
+                    <div class="autopark__items">
+                        <div class="autopark__item">
+                            <button class="car-button">Фургоны</button>
+                        </div>
+                        <div class="autopark__item">
+                            <button class="car-button">Газели</button>
+                        </div>
+                        <div class="autopark__item">
+                            <button class="car-button">Грузовики</button>
+                        </div>
+                    </div>
+                    <div class="autopark__carousel">
+                        <div class="carousel">
+                            <input type="radio" id="carousel-1" name="carousel[]" checked>
+                            <input type="radio" id="carousel-2" name="carousel[]">
+                         <input type="radio" id="carousel-3" name="carousel[]">
+                            <input type="radio" id="carousel-4" name="carousel[]">
+                            <input type="radio" id="carousel-5" name="carousel[]">
+                            <div class="carousel__items">
+                                <div class="carousel__item">
+                                    <div class="text">
+                                        <h6>Газель 3 метра</h6>
+                                        <ul>
+                                            <li>Ширина 2 м</li>
+                                            <li>Высота 2 м</li>
+                                            <li>Объем 16 м³</li>
+                                            <li>Грузоподъемность 1,5 т</li>
+                                        </ul>
+                                        <button class="price__button yellow-button">Заказать</button>
+                                    </div>
+                                    <div class="img">
+                                        <img src="img/car-autopark.png" alt="Car">
+                                    </div>
+                                </div>
+                                <div class="carousel__item">
+                                    <div class="text">
+                                        <h6>Газель 3 метра</h6>
+                                        <ul>
+                                            <li>Ширина 2 м</li>
+                                            <li>Высота 2 м</li>
+                                            <li>Объем 16 м³</li>
+                                            <li>Грузоподъемность 1,5 т</li>
+                                        </ul>
+                                        <button class="price__button yellow-button">Заказать</button>
+                                    </div>
+                                    <div class="img">
+                                        <img src="img/car-autopark.png" alt="Car">
+                                    </div>
+                                </div>
+                                <div class="carousel__item">
+                                    <div class="text">
+                                        <h6>Газель 3 метра</h6>
+                                        <ul>
+                                            <li>Ширина 2 м</li>
+                                            <li>Высота 2 м</li>
+                                            <li>Объем 16 м³</li>
+                                            <li>Грузоподъемность 1,5 т</li>
+                                        </ul>
+                                        <button class="price__button yellow-button">Заказать</button>
+                                    </div>
+                                    <div class="img">
+                                        <img src="img/car-autopark.png" alt="Car">
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="carousel__prev">
+                             <label for="carousel-1"></label>
+                             <label for="carousel-2"></label>
+                             <label for="carousel-3"></label>
+                        </div>
+                        <div class="carousel__next">
+                           <label for="carousel-1"></label>
+                           <label for="carousel-2"></label>
+                           <label for="carousel-3"></label>
+                        </div>
+                        <div class="carousel__nav">
+                            <label for="carousel-1"></label>
+                            <label for="carousel-2"></label>
+                            <label for="carousel-3"></label>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="wrapper">
+                <div class="feedback__h3">Отзывы</div>
+                <div class="feedback__items">
+                    <div class="feedback__item">
+                        <h6 class="author">Ирина</h6>
+                        <div class="date">
+                            <p class="date">24.03.2020</p>
+                            <img src="img/stars.svg" alt="Rating">
+                        </div>
+                        <p>Обращение к вам за помощью в переезде оставило только положительные впечатления. Хотелось отметить замечательного водителя газели Алексея. Были трудности с заездом 
+                            во двор, он проявил себя как компетентный 
+                            и профессиональный сотрудник.
+                        </p>
+                        <button><a href="#">Читать полностью</a></button>
+                    </div>
+                    <div class="feedback__item">
+                        <h6 class="author">Светлана Васильевна</h6>
+                        <div class="date">
+                            <p class="date">13.09.2020</p>
+                            <img src="img/stars.svg" alt="Rating">
+                        </div>
+                        <p>Сегодня ( 13.09.2020 ) мы переехали. Остались очень довольны, несмотря на то, что к нам опоздали на 1,5 часа. Морально были к этому готовы ( в прошлый переезд в другой фирме тоже опоздали на час).  Водитель заранее позвонил, предупредил, что задерживается.
+                            Когда...
+                        </p>
+                        <button><a href="#">Читать полностью</a></button>
+                    </div>
+                    <div class="feedback__item">
+                        <h6 class="author">Ольга Петрова</h6>
+                        <div class="date">
+                            <p class="date">11.11.2020</p>
+                            <img src="img/stars.svg" alt="Rating">
+                        </div>
+                        <p>Могу на 100% порекомендовать компанию MOVEE и отметить, что цены фиксированы, что упрощает расчет. Безо всяких заморочек, в отличие от их конкурентов. Упаковали все качественно и быстро. Все вещи приехали в сохранности.            
+                        </p>
+                        <button><a href="#">Читать полностью</a></button>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="feeback__button transparent-button">Все отзывы</button>
+                </div>
+            </div>
+        </div>
+        <div class="connect-form">
+            <div class="wrapper">
+                <h3 class="connect-form__h3">Закажи  переезд прямо сейчас</h3>
+                <p class="connect-form__p">Мы перезвоним в течении 10 секунд</p>
+                <div class="form">
+                    <input class="name" type="text">
+                    <input class="phone" id="phone" type="text">	
+                    <script>
+                        $(function() {
+                            $("#phone").mask("8(999) 999-9999");
+                        });
+                    </script>
+                    <div class="accept">
+                        <button class="connect-form__button red-button">Перезвонить мне</button>
+                        <div>
+                            <input class="check" type="checkbox" id="yes">
+                            <label for="yes">Даю согласие на обработку данных
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.501191514005!2d37.7059019156212!3d55.715041702371614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab5269715db59%3A0x3c9ede46f385b391!2z0JLQvtC70LPQvtCz0YDQsNC00YHQutC40Lkg0L_RgC3Rgi4sIDM4LCDQnNC-0YHQutCy0LAsIDEwOTMxNg!5e0!3m2!1sru!2sru!4v1611432264933!5m2!1sru!2sru" class="map-page" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <h3>MOVEE</h3>
+                    <p><a href="#">Политика конфиденциальности</a></p>
+                    <p><a href="#">Соглашение на обработку персональных данных</a></p>
+                </div>
+                <div class="footer__item item-nav">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Цена</a></li>
+                        <li><a href="#">Автопарк</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__social">
+                        <img src="img/youtube.svg" alt="Youtube">
+                        <img src="img/vk.svg" alt="Vkontakte">
+                        <img src="img/fb.svg" alt="Facebook">
+                        <img src="img/insta.svg" alt="Instagtam">
+                    </div>
+                    <p><a href="mailto:hello@movee.ru">hello@movee.ru</a></p>
+                </div>
+                <div class="footer__item">
+                    <button class="transparent-button">Обратный звонок</button>
+                    <p><a href="tel:+78000801213">8 (800)-080-12-13</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
